@@ -1,0 +1,173 @@
+@media(max-width:662px){
+
+   .header nav {
+      display: none;
+   }
+
+   .burger-menu{
+      display: block;
+   }
+
+ .main{
+    display: flex;
+    flex-direction: column-reverse;
+ }
+
+
+ .main-content {
+    text-align: center;
+    align-items: center;
+    padding-inline: 20px;
+    gap: 14px;
+    max-width: 370px;
+ }
+
+ .main-image{
+   padding-inline: 30px;
+ }
+
+ .main-content p {
+   font-size: clamp(0.875rem, 0.739rem + 0.68vw, 1.25rem);
+   width: 70%;
+
+ }
+
+ .apple {
+  display: flex;
+  flex-direction: column;
+  margin-inline: auto;
+padding-inline: 4px;}
+
+ .apple p {
+  width: 100%;
+  max-width: 620px;
+ }
+
+ .apple-contant {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+ }
+
+
+ .join {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  margin-inline: auto;
+  padding-inline: 10px;
+ }
+
+ 
+
+}
+
+
+
+ 
+
+@media(max-width:370px){
+   .main-image{
+      padding-inline: 20px;
+    }
+   
+    .main-content p {
+      font-size: clamp(0.875rem, 0.739rem + 0.68vw, 1.25rem);
+      width: 95%;
+      max-width:370px ;
+    }
+
+    .main-btn button{
+      width: 112px;
+      height: 30px;
+      font-size: 12px;
+    }
+
+    .gradient-button {
+      width: 100%;
+      max-width: 114px;
+      height: 30px;
+      font-size: 12px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .apple-contant button {
+      width: 112px;
+      height: 30px;
+      font-size: 12px;
+    }
+
+    .apple {
+      display: flex;
+      flex-direction: column;
+      gap: 22px;
+    }
+
+    .join-had h1 {
+      margin-inline:4px;
+    }
+
+    .join-had p {
+      width: 100%;
+      max-width:360px ;
+      margin-inline: auto;
+    padding-inline: 4px;
+     }
+
+     .box {
+      width: 100%;
+      max-width:  310px;
+      height: 404px;
+      background-color: #090823;
+      border-top-right-radius: 30px;
+      border-bottom-left-radius: 30px;
+      display: flex;
+      flex-direction: column;
+      padding-inline: 4px;
+      gap: 22px;
+  }
+
+  .join-btn {
+    margin-inline: auto;
+    padding-inline: 2px;
+  }
+
+  .gradient-join{
+  width: 114px;
+  height: 32px;
+  display: flex;
+  justify-content: center;align-items: center;
+  }
+
+  .join-btn :first-child {
+    width: 114px;
+    height: 32px;
+  }
+
+  .join-had p{
+    font-size: clamp(0.875rem, 0.784rem + 0.45vw, 1.125rem);
+    color: #cdccce;
+    width: 100%;
+    max-width: 360px;
+}
+
+.lime {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#footer {
+  height: 480px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+  gap: 56px;
+
+
+}
